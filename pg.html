@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PG Courses | NEST</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background:#f5f7fb;
+}
+
+/* Navbar */
+
+.navbar{
+box-shadow:0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+
+.hero{
+background:linear-gradient(135deg,#0d6efd,#5aa0ff);
+color:white;
+padding:70px 0;
+text-align:center;
+}
+
+/* Course Cards */
+
+.course-card{
+border:none;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.course-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Image styling */
+
+.course-card img{
+height:300px;
+transition:0.4s;
+}
+
+.course-card:hover img{
+transform:scale(1.05);
+}
+
+/* Button */
+
+.btn-course{
+background:#0d6efd;
+color:white;
+border-radius:25px;
+padding:8px 20px;
+}
+
+.btn-course:hover{
+background:#084298;
+color:white;
+}
+
+/* CTA */
+
+.cta{
+background:#0d6efd;
+color:white;
+padding:60px 0;
+text-align:center;
+margin-top:60px;
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:#aaa;
+padding:20px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold text-primary">NEST</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="courses.html">All Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact Us</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1 class="fw-bold">Postgraduate Courses</h1>
+
+<p class="mt-2">
+Advance your career with our specialized postgraduate programs.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- Courses -->
+
+<div class="container py-5">
+
+<div class="row g-4 justify-content-center">
+
+
+<!-- MCA -->
+
+<div class="col-md-3">
+
+<div class="card course-card h-100">
+
+<img src="images/mca.jpg" class="card-img-top" alt="MCA">
+
+<div class="card-body text-center d-flex flex-column">
+
+<h5 class="card-title">MCA</h5>
+
+<p>Master of Computer Applications program.</p>
+
+<a href="mca.html" class="btn btn-course mt-auto">View Details</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- IMCA -->
+
+<div class="col-md-3">
+
+<div class="card course-card h-100">
+
+<img src="images/imca.jpg" class="card-img-top" alt="Integrated MCA">
+
+<div class="card-body text-center d-flex flex-column">
+
+<h5 class="card-title">Integrated MCA</h5>
+
+<p>5-year integrated MCA program.</p>
+
+<a href="imca.html" class="btn btn-course mt-auto">View Details</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- MBA -->
+
+<div class="col-md-3">
+
+<div class="card course-card h-100">
+
+<img src="images/mba.jpg" class="card-img-top" alt="MBA">
+
+<div class="card-body text-center d-flex flex-column">
+
+<h5 class="card-title">MBA</h5>
+
+<p>Master of Business Administration.</p>
+
+<a href="mba.html" class="btn btn-course mt-auto">View Details</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- MHRM -->
+
+<div class="col-md-3">
+
+<div class="card course-card h-100">
+
+<img src="images/mhrm.jpg" class="card-img-top" alt="MHRM">
+
+<div class="card-body text-center d-flex flex-column">
+
+<h5 class="card-title">MHRM</h5>
+
+<p>Master of Human Resource Management.</p>
+
+<a href="mhrm.html" class="btn btn-course mt-auto">View Details</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<!-- CTA Section -->
+
+<section class="cta">
+
+<div class="container">
+
+<h2>Build Your Future with NEST</h2>
+
+<p>Apply now and take the next step in your professional journey.</p>
+
+<a href="contact.html" class="btn btn-light btn-lg mt-3">Apply Now</a>
+
+</div>
+
+</section>
+
+
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 NEST Institute | All Rights Reserved</p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
